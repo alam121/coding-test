@@ -2,15 +2,16 @@
 
 This is the code for the following question: 
 
-Write a launch file to launch a turtlesim node with two turtles named “turtle1” and “turtle2”.
+a) Write a launch file to launch a turtlesim node with two turtles named “turtle1” and “turtle2”.
 Inside this launch file, also run the teleop node to teleop “turtle1”.
+
 b. Write a C++/Python node for the following scenario:
 “Turtle1” will be the leader and “Turtle2” will be the follower. The follower must stay behind the
 leader and maintain a 0.8-meter distance. If you teleop turtle1, the follower turtle must follow
 accordingly.
 Hint: You will need to utilize TF library this task.
 
-#for a 
+# for a 
 For this a launch file was written that sets up a turtlesim simulation environment with two turtles and allows keyboard control of first turtles.
 Additionally, it spawns a new turtle named "turtle2" at coordinates (4.0, 4.0) within the simulation.
 
@@ -18,7 +19,7 @@ Additionally, it spawns a new turtle named "turtle2" at coordinates (4.0, 4.0) w
 roslaunch coding-test turtlesim.launch
 ```
 
-#for b
+# for b
 
 I also attempted this using two appraoches:
 
